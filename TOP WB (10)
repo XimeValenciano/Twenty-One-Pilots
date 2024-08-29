@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twenty One Pilots</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1b1b1b;
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #e50914;
+            padding: 20px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffe81f;
+        }
+
+        .section {
+            padding: 60px 0;
+            background-color: #2a2a2a;
+            border-top: 2px solid #e50914;
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            color: #ffe81f;
+            margin-bottom: 20px;
+        }
+
+        #historia p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        #galeria .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        #galeria .gallery-item img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        #galeria .gallery-item img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        #dema p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #f5f5f5;
+        }
+
+        #redes-sociales .social-links {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        #redes-sociales .social-links li a {
+            background-color: #e50914;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        #redes-sociales .social-links li a:hover {
+            background-color: #ffe81f;
+        }
+
+        footer {
+            background-color: #1b1b1b;
+            padding: 20px 0;
+            text-align: center;
+            color: #f5f5f5;
+            border-top: 2px solid #e50914;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Twenty One Pilots</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#dema">Dema</a></li>
+                    <li><a href="#redes-sociales">Redes Sociales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="historia" class="section">
+        <div class="container">
+            <h2>Historia de la Banda</h2>
+            <p>Twenty One Pilots es un dúo musical estadounidense formado en 2009 en Columbus, Ohio por Tyler Joseph, Nick Thomas y Chris Salih. En 2011, Thomas y Salih se fueron de la banda y desde entonces, Joseph ha formado el dúo con el baterista Josh Dun.</p>
+            <p>El nombre de la banda se inspira en la obra de teatro <em>All My Sons</em> de Arthur Miller, que cuenta la historia de un contratista militar corrupto que fabrica aviones con piezas defectuosas, poniendo en peligro a los tripulantes y causando la muerte de 21 pilotos.</p>
+            <p>La banda se caracteriza por su versatilidad y eclecticismo, y ha desafiado las barreras entre géneros musicales para mantenerse relevante en una industria en constante evolución. Su historia central gira en torno a Dema, una ciudad ficticia que representa las luchas por la salud mental y está gobernada por gobernantes opresivos.</p>
+            <p>El personaje Blurryface, personificación de las inseguridades y miedos de Tyler, ocupa un lugar central como el obispo principal, Nico. Joseph interpreta a Blurryface pintándose el cuello y las manos con pintura negra para simbolizar la sensación de asfixia que crean estas luchas.</p>
+        </div>
+    </section>
+
+    <section id="galeria" class="section">
+        <div class="container">
+            <h2>Galería</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://cdn2.excelsior.com.mx/800x600/filters:format(jpg):quality(75)/media/pictures/2024/05/09/3113770.jpg" alt="Twenty One Pilots 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.reactivoz.com/wp-content/uploads/2020/08/Twenty-One-Pilots1.jpg" alt="Twenty One Pilots 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://setlist.me/wp-content/uploads/2024/05/430114079_962373078582544_1369644565270141836_n.jpg" alt="Twenty One Pilots 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dema" class="section">
+        <div class="container">
+            <h2>Dema y Blurryface</h2>
+            <p>Dema es una ciudad ficticia que representa las luchas por la salud mental. Gobernada por obispos opresivos, entre ellos Nico, la ciudad es un símbolo de las batallas internas que muchos enfrentan. Blurryface, el personaje central que personifica las inseguridades de Tyler, es un elemento clave en esta narrativa. La pintura negra que Tyler usa en su cuello y manos durante las presentaciones es un símbolo de estas luchas, representando la opresión y la ansiedad.</p>
+        </div>
+    </section>
+
+    <section id="redes-sociales" class="section">
+        <div class="container">
+            <h2>Síguenos en Redes Sociales</h2>
+            <ul class="social-links">
+                <li><a href="https://www.twentyonepilots.com/" target="_blank">Sitio Web</a></li>
+                <li><a href="https://www.instagram.com/twentyonepilots/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/twentyonepilots" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCBQZwaNPFfJ1gZ1fLZpAEGw" target="_blank">YouTube</a></li>
+                <li><a href="https://x.com/twentyonepilots?mx=2" target="_blank">Twitter</a></li>
+                <li><a href="https://www.tiktok.com/@twentyonepilots" target="_blank">TikTok</a></li>
+                <li><a href="https://open.spotify.com/intl-es/artist/3YQKmKGau1PzlVlkL1iodx?si=6bo6xmIaR96b6Ax1ciw2gQ&nd=1&dlsi=1549768756b4472f" target="_blank">Spotify</a></li>
+                <li><a href="https://music.apple.com/us/artist/twenty-one-pilots/349736311" target="_blank">Apple Music</a></li>
+                <li><a href="https://music.amazon.com/artists/B0033LXVEU/twenty-one-pilots" target="_blank">Amazon Music</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Twenty One Pilots Fansite. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
